@@ -1,0 +1,81 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+* {
+	/*border: 1px solid red; */
+}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/* title styles */
+* {
+color:White; /*set your hexadecimal color here*/
+font-size:; /*set here your font size*/
+}
+
+a {
+    color: #df691a;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #df691a;
+    background-color: #df691a;
+    color: #ebebeb;
+}
+.navbar-default .navbar-nav>li>a {
+background-color: #df691a;
+color: #ebebeb;
+}
+
+.navbar-default .navbar-brand {
+    background-color:: #df691a;
+    color: #ebebeb;
+}
+
+.jumbotron {
+	background-color: #40444f;
+}
+
+.btn-primary {
+	color: #fff;
+    background-color: #df691a;
+    border-color: #2b3e50;
+ }
+
+.pager .next>a, .pager .next>span {
+    background-color: #df691a;
+    color: #ebebeb;
+}
+
+.pager .previous>a, .pager .previous>span {
+  background-color: #df691a;
+    color: #ebebeb;
+}
+
+.simple-social-icons ul li a, .simple-social-icons ul li a:hover {
+    background-color: #df691a !important;
+    border-radius: 3px;
+    color: #ffffff !important;
+    border: 0px #ffffff solid !important;
+    font-size: 18px;
+    padding: 9px;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #df691a;
+    color: #ebebeb;
+}
+
+.navbar-default {
+    border-color: #df691a;
+}
